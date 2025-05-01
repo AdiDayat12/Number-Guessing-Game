@@ -20,3 +20,6 @@ A simple and fun console-based number guessing game with three difficulty levels
 4. Win by guessing correctly before your chances run out.
 5. At the end of the round, you can choose to play again or exit.
 
+## 🔗 Project URL
+
+https://roadmap.sh/projects/number-guessing-game
