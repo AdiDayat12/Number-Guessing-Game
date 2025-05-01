@@ -1,1 +1,1 @@
-# GitHub-User-Activity
+# Number Guessing Game
