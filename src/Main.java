@@ -6,7 +6,6 @@ public class Main {
     public static void run (){
         Scanner scanner = new Scanner(System.in);
         int targetNumber = generateRandomInteger();
-        System.out.println("Target number: " + targetNumber);
         System.out.println("\n");
         System.out.println("=".repeat(24));
         System.out.println("Number Guessing Game");
@@ -77,7 +76,7 @@ public class Main {
                     System.out.println("Do you want a hint? (y/n)");
                     String hint = s.next();
                     if (hint.equalsIgnoreCase("y")){
-                        System.out.println(String.format("Target number is between %d and %d", targetNumber - 3, targetNumber + 3));
+                        System.out.println(String.format("Target number is between %d and %d", targetNumber - (int)(Math.random() * 4), targetNumber + (int)(Math.random() * 5)));
                     }
                 }
 
